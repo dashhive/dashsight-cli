@@ -33,7 +33,7 @@ You may need to close and re-open your terminal.
 ## Install
 
 ```bash
-npm install --location=global dashsight-cli
+npm install --location=global dashsight-cli@v1
 ```
 
 # Usage
