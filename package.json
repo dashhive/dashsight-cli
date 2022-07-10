@@ -1,0 +1,45 @@
+{
+  "name": "dashsight-cli",
+  "version": "1.0.0",
+  "description": "CLI for Dash's flavor of the Insight API",
+  "main": "bin/dashsight.js",
+  "bin": {
+    "dashsight": "bin/dashsight.js"
+  },
+  "scripts": {
+    "lint": "npx jshint@2 -c .jshintrc ./lib ./bin ./*.js; npx -p typescript@4 tsc",
+    "fmt": "npx prettier@2 --write '**/*.{md,js}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "types.js",
+    "typings"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashhive/dashsight.js.git"
+  },
+  "keywords": [
+    "dash",
+    "insight",
+    "api",
+    "digital",
+    "cash"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/dashhive/dashsight.js/issues"
+  },
+  "homepage": "https://github.com/dashhive/dashsight.js#readme",
+  "dependencies": {
+    "@root/request": "^1.8.3",
+    "dashsight": "^1.0.0",
+    "dotenv": "^16.0.1"
+  }
+}
