@@ -1,6 +1,6 @@
 {
   "name": "dashsight-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for Dash's flavor of the Insight API",
   "main": "bin/dashsight.js",
   "bin": {
