@@ -6,6 +6,21 @@ Dash's flavor of the Insight API
 This cross-platform DashSight CLI makes it easy to check balances and utxos, and
 see and send transactions.
 
+```bash
+dashsight tx f92e66edc9c8da41de71073ef08d62c56f8752a3f4e29ced6c515e0b1c074a38
+```
+
+```txt
+Transaction Details...
+
+[f92e66edc9c8da41de71073ef08d62c56f8752a3f4e29ced6c515e0b1c074a38]
+Inputs:
+  Đ   0.00100001 <= Xhn6eTCwW94vhVifhshyTeihvTa7LcatiM
+Outputs:
+  Đ   0.00099809 => XmCyQ6qARLWXap74QubFMunngoiiA1QgCL
+  Đ   0.00000192 => (Network Fee)
+```
+
 # Install
 
 ## Node.js
