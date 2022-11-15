@@ -1,6 +1,6 @@
 {
   "name": "dashsight-cli",
-  "version": "1.0.1",
+  "version": "1.3.0-0",
   "description": "CLI for Dash's flavor of the Insight API",
   "main": "bin/dashsight.js",
   "bin": {
@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "npx jshint@2 -c .jshintrc ./lib ./bin ./*.js; npx -p typescript@4 tsc",
     "fmt": "npx prettier@2 --write '**/*.{md,js}'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "npm version -m \"chore(release): bump to v%s\""
   },
   "files": [
     "bin",
@@ -39,7 +40,7 @@
   "homepage": "https://github.com/dashhive/dashsight.js#readme",
   "dependencies": {
     "@root/request": "^1.8.3",
-    "dashsight": "^1.0.0",
+    "dashsight": "^1.3.0",
     "dotenv": "^16.0.1"
   }
 }
